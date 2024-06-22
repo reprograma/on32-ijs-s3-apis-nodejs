@@ -6,6 +6,24 @@
 
 Turma Online XX - Imersão JavaScript | Semana XX | 20XX | Professora XXXXX
 
+### Professora Analu
+<h1>
+  <img src="assets/analu.jpeg" alt="foto analu" width="200">
+</h1>
+
+Eu sou engenheira de software back-end, professora de programação, lider tecnica na Reprograma e JUG Community Manager no `Java Girls JUG`
+
+Fui da primeira turma de Back-End da Reprograma
+Hoje trabalho como Engenheira de Software no Banco Itaú.
+
+- 💌 Email: sampaioaanaluiza@gmail.com
+- 📸 Instagram: [@analu.io](https://www.instagram.com/analu.io/)
+- 🐤 Twitter: [@analupontoio](https://twitter.com/analupontoio/)
+- 💼 LinkedIn: [in/sampaioaanaluiza](https://www.linkedin.com/in/sampaioaanaluiza/)
+- 👩‍💻 Github:[/analuizasampaio](https://github.com/analuizasampaio)
+
+
+
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
 * Fork esse repositório 
@@ -14,7 +32,10 @@ Antes de começar, vamos organizar nosso setup.
 * [Add outras intrucoes caso necessario]
 
 ### Objetivo
-[COLOQUE AQUI O OBJETIVO DA SUA AULA]
+- Entender como o TypeScript, uma linguagem de programação superset de JavaScript, se integra naturalmente ao ecossistema do Node.js.
+- Compreender os princípios e características de uma arquitetura RESTful.
+- Identificar os recursos, URIs, métodos HTTP e códigos de status comuns em uma API REST.
+- Aprender a projetar e implementar uma API RESTful usando Node.js, seguindo as melhores práticas de REST.
 
 ### Resumo
 O que veremos na aula de hoje?
@@ -25,37 +46,18 @@ O que veremos na aula de hoje?
 
 - [Conteúdo](#conteúdo)
 
-  - [Exemplo](#exemplo)
-    - [O que são e para que servem ](#o-que-são-e-para-que-servem)
-    - [Benefícios](#benefícios)
-    - [Abordagens](#abordagens)
-    - [Implementação](#implementação)
-  
-  - [Outro Exemplo](#outro-exemplo)
-    - [ETCETC](#etcetc)
+  - [Web APIs](./material/A0101-webapis.md)
+  - [Rest e RestFull](./material/A0102-rest-restful.md)
+  - [Inversão de Controle](./material/A0103-inversao-de-controle.md)
+  - [Injeção de Dependencia](./material/A0103-inversao-de-controle.md)
+  - [CRUD](./material/A0104-injecao-de-dependencia.md)
+  - [Decorators](./material/A0106-decorators.md)
+
 
   - [Exercícios](#exercícios)
   - [Material da aula](#material-da-aula)
   - [Links Úteis](#links-úteis)
 
-# Conteúdo
-
-## Exemplo  
-  #### O que são e para que servem
-  [CONTEUDO]
-
-  #### Benefícios
-  [CONTEUDO]
-
-  #### Abordagens
-  [CONTEUDO]
-
-  #### Implementação
-  [CONTEUDO]
-
-## Outro Exemplo
-   #### ETCETC
-   [CONTEUDO]
 
 
 ***
@@ -67,9 +69,15 @@ O que veremos na aula de hoje?
 * [Material](/material)
 
 ### Links Úteis
-* 
+* [Rodmap Nodejs Developer](https://roadmap.sh/nodejs)
+* [Node.js](https://nodejs.org/en)
+* [Documentação Typescript](https://www.typescriptlang.org/docs/) 
+* [Nestjs](https://nestjs.com/)
+* [Documentação Nest](https://docs.nestjs.com/)
+
 
 <p align="center">
-Desenvolvido com :purple_heart:  
+Desenvolvido com :purple_heart:  por analu.io
 </p>
+
 
