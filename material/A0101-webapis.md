@@ -154,7 +154,7 @@ curl http://www.omdbapi.com/?s=Batman
 - Descrição: Fornece informações sobre filmes do Studio Ghibli.
 
 ```sh
-curl https://ghibliapi.herokuapp.com/films
+curl https://ghibliapi.vercel.app/films
 ```
 
 **TVMaze API**
