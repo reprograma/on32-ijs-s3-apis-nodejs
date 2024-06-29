@@ -69,12 +69,12 @@ Uma das formas de se aplicar DIP é criando uma interface interface `Notificatio
 
 ```typescript
 // Interface (abstração)
-interface NotificationService {
+interface NotificationInterface {
   sendNotification(message: string): void;
 }
 
 // Classe de baixo nível
-class EmailNotificationService implements NotificationService {
+class EmailNotificationService implements NotificationInterface {
   sendNotification(message: string) {
     console.log(`Enviando Email com a mensagem: ${message}`);
   }
@@ -82,20 +82,20 @@ class EmailNotificationService implements NotificationService {
 
 // Classe de alto nível
 class GradeService {
-  private notificationService: NotificationService;
+  private notificationInterface: NotificationInterface;
 
-  constructor(notificationService: NotificationService) {
-    this.notificationService = notificationService;
+  constructor(notificationInterface: notificationInterface) {
+    this.notificationInterface = notificationInterface;
   }
 
   addGrade(studentName: string, grade: string) {
-    this.notificationService.sendNotification(`Nota adicionada para  ${studentName}: ${grade}`);
+    this.notificationInterface.sendNotification(`Nota adicionada para  ${studentName}: ${grade}`);
     console.log(`Adicionada nota ${grade} para ${studentName}`);
   }
 }
 
 // Uso
-const notificationService = new EmailNotificationService();
+const notificationInterface = new EmailNotificationService();
 const gradeService = new GradeService(notificationService);
 gradeService.addGrade('Maria Silva', 'A+');
 ```
